@@ -1,0 +1,28 @@
+#include<stdio.h>
+#include<locale.h>
+int main(){
+    
+    char nome[50];
+    float salário,percentual, novo_salário;
+    
+    setlocale(LC_ALL,"");
+    
+    
+    printf("Digite o nome da pessoa: ");
+    scanf("%s", nome);
+    
+    
+    printf("Digite o salário da pessoa: R$");
+    scanf("%f", &salário);
+    
+    
+    printf("Digite o valor do percentual: ");
+    scanf("%f", &percentual);
+    
+    novo_salário = salário *(1+percentual/100);
+    
+    
+    printf("novo_salário de %s: R$%.2f\n", nome, novo_salário);
+    
+    return 0;
+}
