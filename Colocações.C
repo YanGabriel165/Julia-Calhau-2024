@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main (){
+    int colocacoes;
+    
+    for(colocacoes=1;colocacoes<=10;colocacoes++)
+    printf("%d ºcolocacoes \n",colocacoes);
+    
+    return 0;
+  
+   
+}
