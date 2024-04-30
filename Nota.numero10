@@ -1,0 +1,24 @@
+#include<stdio.h>
+int main (){
+int nota;
+
+for(;;){
+   printf("Digite uma nota de 0 a 10: \n");
+   scanf("%d", &nota);
+   
+   if(nota <=10){
+       break;
+       
+   }
+   else{
+       printf("valor invalido. \n");
+       
+   }
+  
+}
+   printf("Voce digitou o numero certo fim do programa \n");
+   return 0;
+}
+   
+   
+   
