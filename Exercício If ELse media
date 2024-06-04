@@ -1,0 +1,36 @@
+#include<stdio.h>
+int main (){
+int soma, nota1, nota2, nota3, media, situacao;
+
+printf("digite a primeira nota"); 
+scanf("%d", &nota1);
+
+printf("digite a segunda nota");
+scanf("%d", &nota2);
+
+printf("digite a terceira nota");
+scanf("%d", nota3);
+
+soma = nota1 + nota2 + nota3;
+media = soma/3;
+printf("media = %d", media);
+
+if (media >= 9) {
+   printf("Aluno ouro");
+} else if (media >= 8) {
+	printf("Aluno prata");
+} else if (media >= 7) {
+    printf("Aluno bronze");
+} else if (media >= 5) {
+	printf("Situacao do aluno: Aprovado");
+} else {
+  printf("Situacao do aluno: Retido");
+}
+
+return 0;
+
+}
+
+
+
+
