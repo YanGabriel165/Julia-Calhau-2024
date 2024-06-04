@@ -1,15 +1,15 @@
 #include <stdio.h>
 int main(){
-     //definição de variáveis
+     //definiÃ§Ã£o de variÃ¡veis
      int a, b, c, d, e;
      
-    printf("Digite três números inteiros:\n");
+    printf("Digite trÃªs nÃºmeros inteiros:\n");
     //Entrada 
     scanf("%d %d %d", &a, &b,&d);
     //processamento
     c = a + b;
     e = c * d;
     printf("a soma de a + b = %d", c);
-    printf("a multiplicação de c * d = %d", e);  
+    printf("a multiplicaÃ§Ã£o de c * d = %d", e);  
     return 0;
 }
